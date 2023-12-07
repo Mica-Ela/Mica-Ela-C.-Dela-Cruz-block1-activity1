@@ -26,12 +26,4 @@
         tools:layout_editor_absoluteY="444dp"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/button_minus"
-        android:layout_width="137dp"
-        android:layout_height="56dp"
-        android:text="@string/minus"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="444dp"
-        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
