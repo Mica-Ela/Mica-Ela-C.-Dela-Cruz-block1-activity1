@@ -5,4 +5,6 @@
     <string name="minus">-</string>
     <string name="multi">*</string>
     <string name="divide">÷</string>
+    <string name="numbers">Number</string>
+    <string name="equal">=</string>
 </resources>
