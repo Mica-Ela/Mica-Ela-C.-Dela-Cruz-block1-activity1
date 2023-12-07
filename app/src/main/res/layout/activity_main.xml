@@ -9,10 +9,29 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/calculator"
+        android:textAllCaps="true"
+        android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="137dp"
+        android:layout_height="56dp"
+        android:text="@string/add"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="444dp"
+        tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="137dp"
+        android:layout_height="56dp"
+        android:text="@string/minus"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="444dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

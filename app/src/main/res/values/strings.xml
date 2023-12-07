@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MicaElaDelaCruz-Block1-Quiz</string>
+    <string name="calculator">Calculator</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="multi">*</string>
+    <string name="divide">÷</string>
 </resources>
